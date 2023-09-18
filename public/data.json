@@ -1,0 +1,108 @@
+[
+    {
+        "category": 1,
+        "name": "DR. MD. HOSNE MOBARAK",
+        "consultants": "ANESTHESIOLOGY",
+        "degree": "MBBS, MCPS, FCPS, DA Consultant",
+        "img":"https://ibb.co/vQv5CWw"
+    },
+    {
+        "category": 1,
+        "name": "DR. MUNSHI KALAMUR RAHMAN",
+        "consultants": "ANESTHESIOLOGY",
+        "degree": "MBBS",
+        "img":"https://ibb.co/S7DfQ6C"
+    },
+    {
+        "category": 1,
+        "name": "DR.MD. ABDUS SAMAD",
+        "consultants": "ANESTHESIOLOGY",
+        "degree": "MBBS, MCPS, FCPS MMEd",
+        "img":"https://ibb.co/y0nv0tT"
+    },
+    {
+        "category": 2,
+        "name": "DR. A. M. SHAFIQUE",
+        "consultants": "CARDIOLOGY",
+        "degree": "MBBS, MD (Cardiology)",
+        "img":"https://ibb.co/PGdWGG6"
+    },
+    {
+        "category": 2,
+        "name": "PROF. DR. AFZALUR RAHMAN",
+        "consultants": "CARDIOLOGY",
+        "degree": "MBBS, MD (Cardiology)",
+        "img":"https://ibb.co/YNCvtpF"
+    },
+
+    {
+        "category": 2,
+        "name": "DR. REAZUR RAHMAN",
+        "consultants": "CARDIOLOGY",
+        "degree": "MBBS, DTM&H,D-Card",
+        "img":"https://ibb.co/M8SgrQG"
+    },
+    {
+        "category": 3,
+        "name": "DR. ASHIS KUMAR BISWAS",
+        "consultants": "DENTAL",
+        "degree": "BDS, MCPS (Dental Surgery), FCPS",
+        "img":"https://ibb.co/BgnMHH2"
+    },
+    {
+        "category": 3,
+        "name": "DR. MD. NAZRUL ISLAM",
+        "consultants": "DENTAL",
+        "degree": "BDS, MSc (Singapore)",
+        "img":"https://ibb.co/YRrJSQj"
+    },
+    {
+        "category": 3,
+        "name": "DR. MOSTAQUE H SATTAR",
+        "consultants": "DENTAL",
+        "degree": "BDS, DDS, MCPS, FICCDE, FICD",
+        "img":"https://ibb.co/N1bbyFz"
+    },
+    {
+        "category": 4,
+        "name": "DR. A. Q. M. MOHSEN",
+        "consultants": "GASTROENTEROLOGY",
+        "degree": "MBBS, FCPS",
+        "img":"https://ibb.co/zZr9zPv"
+    },
+    {
+        "category": 4,
+        "name": "DR. IFTEKHAR IMAM",
+        "consultants": "GASTROENTEROLOGY",
+        "degree": "MBBS, MD (Gastroenterology)",
+        "img":"https://ibb.co/hRBLfJQ"
+    },
+    {
+        "category": 4,
+        "name": "DR. TOUHIDUL KARIM",
+        "consultants": "GASTROENTEROLOGY",
+        "degree": "MBBS, FCPS (Medicine), MD (Gastroenterology)",
+        "img":"https://ibb.co/8gp10ck"
+    },
+    {
+        "category": 5,
+        "name": "DR. AMINUL HASHAN",
+        "consultants": "ORTHOPAEDICS",
+        "degree": "MBBS, D.Orth, MS (Orth), FACS",
+        "img":"https://ibb.co/fGtnFm9"
+    },
+    {
+        "category": 5,
+        "name": "DR.MD ABDUL MANNAN",
+        "consultants": "ORTHOPAEDICS",
+        "degree":"MBBS, MS (Ortho)",
+        "img":"https://ibb.co/RbkY8B9"
+    },
+    {
+        "category": 5,
+        "name": "DR.MD. REZA-UL KARIM",
+        "consultants": "ORTHOPAEDICS",
+        "degree":"MBBS, MS (Orthopedics)",
+        "img":"https://ibb.co/ZVhHw3H"
+    }
+]
