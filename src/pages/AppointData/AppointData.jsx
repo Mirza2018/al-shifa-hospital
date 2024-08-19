@@ -7,7 +7,7 @@ const AppointData = () => {
   const { user } = useContext(AuthContex)
   const [details, setDetails] = useState([])
 
-  const url = `http://localhost:5000/appointmentData?email=${user?.email}`
+  const url = `https://al-shifa-hospital-server-1.onrender.com/appointmentData?email=${user?.email}`
   useEffect(() => {
     fetch(url)
       .then(res => res.json())
@@ -17,7 +17,7 @@ const AppointData = () => {
   }, [url])
 
   const handleUpdate = (id) => {
-    fetch(`http://localhost:5000/update/${id}`, {
+    fetch(`https://al-shifa-hospital-server-1.onrender.com/update/${id}`, {
       method: "PATCH",
       headers: {
         "content-type": "application/json"
@@ -37,7 +37,7 @@ const AppointData = () => {
       })
   }
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/delete/${id}`, {
+    fetch(`https://al-shifa-hospital-server-1.onrender.com/delete/${id}`, {
       method: "DELETE"
     })
       .then(res => res.json())

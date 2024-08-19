@@ -11,6 +11,7 @@ const Naver = () => {
 
 
         <li><Link to='/'>Home</Link></li>
+        <li><Link to='/doctors'>Doctors</Link></li>
         <li><Link to='/appointmentData'>Appointment details</Link></li>
         {
             user ? <li onClick={()=>logOut()}><Link to='/'>log Out</Link></li>: <li><Link to='/login'>login</Link></li>
@@ -19,7 +20,7 @@ const Naver = () => {
 
     </>
     return (
-        <div className="navbar bg-blue-400">
+        <div className="navbar bg-orange-300">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -29,7 +30,8 @@ const Naver = () => {
                         {menu}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <img className='w-12' src="https://alshifa-healthcare.com/assets/img/a4.png" alt="" />
+                {/* <a className="btn btn-ghost normal-case text-xl">Al-Shifa Hospital</a> */}
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

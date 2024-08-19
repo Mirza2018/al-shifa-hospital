@@ -15,6 +15,7 @@ import Login from './pages/Login/Login.jsx';
 import Register from './pages/Login/Register.jsx';
 import PrivetRoute from './pages/PrivetRoute/PrivetRoute.jsx';
 import AppointData from './pages/AppointData/AppointData.jsx';
+import AllDocTors from './pages/alldDoctors/AllDocTors.jsx';
 
 const router = createBrowserRouter([
   {
@@ -34,20 +35,25 @@ const router = createBrowserRouter([
         element: <Register></Register>
       },
       {
+        path: '/doctors',
+        element: <AllDocTors></AllDocTors>,
+        loader: () => fetch(`https://al-shifa-hospital-server-1.onrender.com/doctors`)
+      },
+      {
         path: '/appointmentData',
         element: <PrivetRoute><AppointData></AppointData></PrivetRoute>
       },
       {
         path: '/doctors/:id',
         element: <Doctors></Doctors>,
-        loader: ({ params }) => fetch(`http://localhost:5000/doctors/${params.id}`)
+        loader: ({ params }) => fetch(`https://al-shifa-hospital-server-1.onrender.com/doctors/${params.id}`)
       }
     ]
   },
   {
     path: "/appointmentdetails/:id",
     element: <PrivetRoute><AppointmentDetails></AppointmentDetails></PrivetRoute>,
-    loader: ({ params }) => fetch(`http://localhost:5000/appointmentdetails/${params.id}`)
+    loader: ({ params }) => fetch(`https://al-shifa-hospital-server-1.onrender.com/appointmentdetails/${params.id}`)
   }
 ]);
 

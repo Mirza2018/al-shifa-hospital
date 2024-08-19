@@ -19,7 +19,7 @@ const AppointmentDetails = () => {
             name, email, date, time, doctorName: nam, img, consultants
         }
         console.log(details);
-        fetch('http://localhost:5000/appointmentData', {
+        fetch('https://al-shifa-hospital-server-1.onrender.com/appointmentData', {
             method: "POST",
             headers: {
                 "content-type": "application/json"
