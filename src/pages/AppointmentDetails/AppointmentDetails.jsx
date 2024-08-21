@@ -6,7 +6,8 @@ import Naver from "../Home/Navber/Naver";
 
 const AppointmentDetails = () => {
     const { user } = useContext(AuthContex)
-    const loadeDoctor = useLoaderData();
+    const loadeDoctorPast = useLoaderData() ;
+    const loadeDoctor=[...loadeDoctorPast]
     const { category, name:nam, consultants, degree, img, _id } = loadeDoctor;
 
     const handleFrom = e => {
@@ -19,7 +20,7 @@ const AppointmentDetails = () => {
             name, email, date, time, doctorName: nam, img, consultants
         }
         console.log(details);
-        fetch('https://al-shifa-hospital-server-1.onrender.com/appointmentData', {
+        fetch('https://al-shifa-hospital-server-mirza2018s-projects.vercel.app/appointmentData', {
             method: "POST",
             headers: {
                 "content-type": "application/json"

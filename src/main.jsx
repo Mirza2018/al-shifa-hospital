@@ -37,7 +37,7 @@ const router = createBrowserRouter([
       {
         path: '/doctors',
         element: <AllDocTors></AllDocTors>,
-        loader: () => fetch(`https://al-shifa-hospital-server-1.onrender.com/doctors`)
+        loader: () => fetch(`https://al-shifa-hospital-server-mirza2018s-projects.vercel.app/doctors`)
       },
       {
         path: '/appointmentData',
@@ -46,14 +46,14 @@ const router = createBrowserRouter([
       {
         path: '/doctors/:id',
         element: <Doctors></Doctors>,
-        loader: ({ params }) => fetch(`https://al-shifa-hospital-server-1.onrender.com/doctors/${params.id}`)
+        loader: ({ params }) => fetch(`https://al-shifa-hospital-server-mirza2018s-projects.vercel.app/doctors/${params.id}`)
       }
     ]
   },
   {
     path: "/appointmentdetails/:id",
     element: <PrivetRoute><AppointmentDetails></AppointmentDetails></PrivetRoute>,
-    loader: ({ params }) => fetch(`https://al-shifa-hospital-server-1.onrender.com/appointmentdetails/${params.id}`)
+    loader: ({ params }) => fetch(`https://al-shifa-hospital-server-mirza2018s-projects.vercel.app/appointmentdetails/${params.id}`)
   }
 ]);
 

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { AuthContex } from '../../Provider/AuthProvider';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Login = () => {
     const { login, googlePopUp } = useContext(AuthContex)
@@ -44,7 +44,7 @@ const Login = () => {
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col lg:flex-row">
                 <div className="card flex-shrink-0 w w-full shadow-2xl bg-base-100">
-                    <h1>Login</h1>
+                    <h1 className='text-center pt-2 text-2xl text-sky-500 font-bold'>Login</h1>
                     <form onSubmit={handleFrom}>
                         <div className="card-body">
 
@@ -68,7 +68,11 @@ const Login = () => {
 
                             </div>
 
-
+                            <div className='flex justify-between'>
+    Don't have any account!!!
+    <Link to='/register'><span className='text-blue-600 underline'>Register</span></Link>
+    
+    </div>
 
                             <div className="form-control mt-6">
                                 <button className="btn btn-primary">Login</button>
