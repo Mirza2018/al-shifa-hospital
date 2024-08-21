@@ -59,7 +59,7 @@ npm run dev
 ## **Project Structure**
 
 ```plaintext
-ecommerce-app/
+al-shifa-hospital/
 ├── public/
 ├── src/
 │   ├── assets/          # Images, icons, etc.
